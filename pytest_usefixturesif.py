@@ -10,7 +10,7 @@ def pytest_configure(config):
 
 def pytest_runtest_setup(item):
     """Add pytest.markusefixturesif() to py.test"""
-    for info in item.iter_markers('usefixturesif')
+    for info in item.iter_markers('usefixturesif'):
         if info.args[0]:
             if isinstance(info.args[1], (list, tuple)):
                 item.fixturenames.extend(info.args[1])
