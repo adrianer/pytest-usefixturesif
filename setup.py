@@ -4,7 +4,7 @@ setup(
     name='pytest-usefixturesif',
     description='pytest plugin that makes it possible to have fixtures used only when a condition applies',
     long_description=open("README.md").read(),
-    version='0.0.1',
+    version='0.0.2',
     url='https://github.com/adrianer/pytest-usefixturesif',
     download_url='https://github.com/adrianer/pytest-usefixturesif/archive/0.1.tar.gz',
     license='BSD',
